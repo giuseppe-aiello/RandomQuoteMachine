@@ -1,0 +1,28 @@
+button {
+    background-color: #555555;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: white;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+.quote-machine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.buttons-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 35rem;
+}

@@ -1,12 +1,17 @@
-import React from 'react';
+
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import * as React from 'react';
+import QuoteMachine from './components/QuoteMachine/QuoteMachine';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div id="quote-box">
+          <QuoteMachine />
+        </div>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -17,7 +22,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
